@@ -18,19 +18,17 @@ module.exports = () => {
       path: path.resolve(__dirname, "dist"),
     },
     plugins: [
-      // Webpack plugin that generates our html file and injects our bundles.
+      // HTML webpack plugin generates the HTML file and add the required bundles
       new HtmlWebpackPlugin({
         template: "./index.html",
         title: "PWA Editor",
       }),
-
-      // Injects our custom service worker
+      // InjectManifest that defines the source and destination of the service worker
       new InjectManifest({
         swSrc: "./src-sw.js",
         swDest: "src-sw.js",
       }),
-
-      // Creates a manifest.json file.
+      // specifications for the manifest.json file that includes sizes and descriptions
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
@@ -61,7 +59,7 @@ module.exports = () => {
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
-          // We use babel-loader in order to use ES6.
+          // babel-loader is used for ES6
           use: {
             loader: "babel-loader",
             options: {
