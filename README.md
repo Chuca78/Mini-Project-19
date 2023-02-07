@@ -50,11 +50,10 @@ N/A
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-informational?style=for-the-badge&logo=html5)
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![EXPRESS.js](https://img.shields.io/badge/express-JS-yellow?style=for-the-badge&logo=experts-exchange)
 ![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![NPM](https://img.shields.io/badge/npm-yellow?style=for-the-badge&logo=NPM)
 ![Heroku](https://img.shields.io/badge/Heroku-purple?style=for-the-badge&logo=heroku)
-![EXPRESS.js](https://img.shields.io/badge/express-JS-yellow?style=for-the-badge&logo=experts-exchange)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ## How to Contribute
 
